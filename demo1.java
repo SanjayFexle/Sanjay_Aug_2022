@@ -4,17 +4,17 @@ class Demo1{
     static String Lname;
     static String FatherName;
     static String MotherName;
-    static int Age;
-    static int phone;
+    static long Amount;
+    static String companyName;
     public static void main(String[] args) {
         name="Sanjay";
         Mname="Singh";
         Lname="Rawat";
         FatherName="Avatar Singh Rawat";
         MotherName="Vimla Rawat";
-        Age=25;
-        phone= 8949567;
-        System.out.println(name+" "+Mname+" "+Lname);
+        Amount=25;
+        companyName= "Fexle";
+        System.out.println(Amount+" "+companyName);
         System.out.println(FatherName+" "+MotherName);
         System.out.println("Age "+Age);
         System.out.println(phone);
