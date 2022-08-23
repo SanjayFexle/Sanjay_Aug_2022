@@ -4,6 +4,8 @@ class Demo1{
     static String Lname;
     static String FatherName;
     static String MotherName;
+    static long Amount;
+    static String companyName;
     static int money;
     static int Age;
     static int phone;
@@ -13,6 +15,8 @@ class Demo1{
         Lname="Rawat";
         FatherName="Avatar Singh Rawat";
         MotherName="Vimla Rawat";
+        Amount=25;
+        companyName= "Fexle";
         Age=25;
         phone= 8949567;
         money=10;
@@ -20,6 +24,7 @@ class Demo1{
         System.out.println(FatherName+" "+MotherName);
         System.out.println("Age "+Age);
         System.out.println(phone);
+        System.out.println(Amount+" "+companyName);
 
     
     }
