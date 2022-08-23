@@ -25,7 +25,7 @@ class Demo1{
         System.out.println("Age "+Age);
         System.out.println(phone);
         System.out.println(Amount+" "+companyName);
-
+        System.out.println();
     
     }
 }
